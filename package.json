@@ -1,0 +1,19 @@
+{
+  "name": "cosmic-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to help generate starter files for your next project.",
+  "main": "src/index.js",
+  "dependencies": {
+    "inquirer": "^6.4.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jermbo/CosmicCLI.git"
+  },
+  "author": "Jeremy 'Jermbo' Lawson",
+  "license": "MIT",
+  "bin": {
+    "cosmic-create": "src/index.js"
+  }
+}
